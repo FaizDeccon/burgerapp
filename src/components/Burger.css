@@ -1,0 +1,75 @@
+.burgerDisplay{
+  box-sizing: border-box;
+  width: 100%;
+  height: 394px;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.burgerMaker{
+  width: 100%;
+  /* height: 190px; */
+  background-color: rgb(179, 95, 0);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+h3{
+  margin: 0px;
+}
+h4{
+  display: inline;
+  margin-left: 10px;
+}
+.itemBtns, .bill{
+  background-color: rgb(112, 60, 1);
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+.itemBtn{
+  background-color: rgb(255, 208, 154);
+  border: 1px solid rgb(255, 160, 52);
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: rgb(255, 123, 0);
+}
+.itemBtn:hover{
+  color: rgb(255, 226, 182);
+  background-color: rgb(255, 151, 32);
+}
+.topPiece, .bottomPiece, .lettucePiece, .baconPiece, .cheesePiece, .meatPiece{
+  background-image: url(../images/top.jpg);
+  background-size: 300px;
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottomPiece{
+  background-image: url(../images/bottom.jpg);
+  height: 50px;
+}
+.lettucePiece{
+  background-image: url(../images/lettuce.jpg);
+  height: 30px;
+}
+.baconPiece{
+  background-image: url(../images/bacon.jpg);
+  height: 20px;
+}
+
+.cheesePiece{
+  background-image: url(../images/cheese.jpg);
+  height: 15px;
+}
+
+.meatPiece{
+  background-image: url(../images/meat.jpg);
+  height: 50px;
+}
+
